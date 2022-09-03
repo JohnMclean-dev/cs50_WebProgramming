@@ -1,3 +1,23 @@
-13: HTML - Hyper Text Markup Language
+13
+    HTML - Hyper Text Markup Language
 
-24: CSS - Cascading style sheet
+14
+    first line represents HTML declaration (what version)
+    All html files must have a...
+        head element (information about the web page, user does not see) and a...
+        body element (visible part of the page user can see).
+
+22
+    Document Object Module (DOM), diagram explaining the structure of html elements
+
+23
+    <ol>__Ordered list
+    <ul>__Unordered list
+        <li>__list item
+
+    <img src="">__image element which requires a source of said image, use alt to represent image if error occurs. Has no closing tag as there is no content that would be stored within the image. Self closing tag.
+
+    <a>__anchor which requires href (hyperlink reference)
+
+24
+    CSS - Cascading style sheet
