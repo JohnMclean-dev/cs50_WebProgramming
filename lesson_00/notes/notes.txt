@@ -21,3 +21,37 @@
 
 24
     CSS - Cascading style sheet
+
+    best practices
+        do not rely on in line styling, use the style element in the header element
+        i.e.
+        <style>
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+        </style>
+
+        note style can also be in it's own css file also referenced in the header
+        <link rel="stylesheet" href="styles.css">
+
+        rule of thumb, if you are writing the same lines of code multiple times there is a better way
+
+        padding - space content within the element
+        margin - space element from other elements
+
+        font-weight - bold, italics, etc.
+
+        <style>
+            h1 {} <!-- styles element -->
+            #foo {} <!-- styles id -->
+            .baz {} <!-- styles class -->
+        </style>
+
+31
+    use selectors to specify styling of elements based on a user defined hierarchy 
+
+    a:b for use with conditional scenarios, i.e. button:hover for hovering over a button
+
+33
+    viewport - area of the screen that the user can see (i.e. desktop vs smartphone)
