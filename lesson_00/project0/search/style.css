@@ -1,0 +1,16 @@
+body>* {
+    border: 3px solid black;
+}
+
+#otherSearches {
+    position: absolute;
+    right: 100px;
+    width: 200px;
+}
+
+#mainSearch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
