@@ -1,11 +1,17 @@
+body {
+    background-color: gray;
+    font-family: ariel, sans-serif;
+}
+
 body>* {
-    border: 3px solid black;
+    border: 3px solid white;
 }
 
 #otherSearches {
     position: absolute;
     right: 100px;
-    width: 200px;
+    width: 150px;
+    padding: 20px;
 }
 
 #mainSearch {
@@ -13,4 +19,13 @@ body>* {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+.searchTool {
+    border-radius: 25px;
 }
